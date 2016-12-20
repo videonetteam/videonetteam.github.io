@@ -292,16 +292,20 @@
 	}
 
 
-	// ######## Real thing #######
+	// // ######## Real thing #######
+	// var rand_idx2=new Array(team_members.length);
 	// for (ii in team_members)
+	// 	rand_idx2[ii]=ii;
+	// shuffleArray(rand_idx2);
+	// for (ii in rand_idx2)
 	// {
-	// 	var props = team_props[team_members[ii]];
-	// 	document.getElementById("team_list").innerHTML = document.getElementById("team_list").innerHTML +  `<div class="col-1-5 t-center">
+	// 	var props = team_props[team_members[rand_idx2[ii]]];
+	// 	document.getElementById("team_list").innerHTML = document.getElementById("team_list").innerHTML +  `<div class="resp-col t-center">
 	// 						<div class="wrap-col">
 	// 							<div class="round">
 	// 								<a href="`+props.link+`" target="_blank"><img src="`+props.image+`" class="roundimg"/></a>
 	// 							</div>
-	// 							<a href="`+props.link+`" target="_blank"><h3 style="margin: 20px;">`+props.name+`</h3></a>
+	// 							<a href="`+props.link+`" target="_blank"><div style="margin-top: 10px;">`+props.name+`</div></a>
 	// 						</div>
 	// 					</div>`;
 	// }
