@@ -73,13 +73,13 @@ var team_props = {'Pont-Tuset': {'name': 'Jordi Pont-Tuset',
                              'image' : 'images/Caelles.png'},
                   'Perazzi': {'name': 'Federico Perazzi',
                              'link'  : 'http://graphics.ethz.ch/~perazzif',
-                             'image' : 'images/Perazzi.png'},
+                             'image' : 'images/Perazzi.jpg'},
                   'Sorkine': {'name': 'Alex Sorkine-Hornung',
                              'link'  : 'http://www.ahornung.net',
-                             'image' : 'images/Sorkine.png'},
+                             'image' : 'images/Sorkine.jpg'},
                   'Arbelaez': {'name': 'Pablo Arbeláez',
                              'link'  : 'https://biomedicalcomputervision.uniandes.edu.co',
-                             'image' : 'images/Arbelaez.png'}};
+                             'image' : 'images/Arbelaez.jpg'}};
 
 
                            
