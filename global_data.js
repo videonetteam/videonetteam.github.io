@@ -59,12 +59,27 @@ var pub_props = {'Perazzi2016': {'title': 'A Benchmark Dataset and Evaluation Me
 */
 
 // Team
-var team_members = ['Pont-Tuset'];
+var team_members = ['Pont-Tuset', 'VanGool', 'Caelles', 'Sorkine', 'Perazzi', 'Arbelaez'];
 
 // Team data
 var team_props = {'Pont-Tuset': {'name': 'Jordi Pont-Tuset',
                              'link'  : 'https://jponttuset.cat',
-                             'image' : 'images/Jordi.png'}};
+                             'image' : 'images/PontTuset.png'},
+                  'VanGool': {'name': 'Luc Van Gool',
+                             'link'  : 'https://www.vision.ee.ethz.ch/en/members/get_member.cgi?id=1',
+                             'image' : 'images/VanGool.png'},
+                  'Caelles': {'name': 'Sergi Caelles',
+                             'link'  : 'https://ch.linkedin.com/in/sergicaelles',
+                             'image' : 'images/Caelles.png'},
+                  'Perazzi': {'name': 'Federico Perazzi',
+                             'link'  : 'http://graphics.ethz.ch/~perazzif',
+                             'image' : 'images/Perazzi.png'},
+                  'Sorkine': {'name': 'Alex Sorkine-Hornung',
+                             'link'  : 'http://www.ahornung.net',
+                             'image' : 'images/Sorkine.png'},
+                  'Arbelaez': {'name': 'Pablo Arbeláez',
+                             'link'  : 'https://biomedicalcomputervision.uniandes.edu.co',
+                             'image' : 'images/Arbelaez.png'}};
 
 
                            
