@@ -59,7 +59,7 @@ var pub_props = {'Perazzi2016': {'title': 'A Benchmark Dataset and Evaluation Me
 */
 
 // Team
-var team_members = ['Pont-Tuset', 'VanGool', 'Caelles', 'Sorkine', 'Perazzi', 'Arbelaez'];
+var team_members = ['Pont-Tuset', 'VanGool', 'Caelles', 'Sorkine', 'Perazzi', 'Arbelaez','Leal-Taixe','Roth','Milan','Cremers','Reid','Schindler'];
 
 // Team data
 var team_props = {'Pont-Tuset': {'name': 'Jordi Pont-Tuset',
@@ -79,7 +79,25 @@ var team_props = {'Pont-Tuset': {'name': 'Jordi Pont-Tuset',
                              'image' : 'images/Sorkine.jpg'},
                   'Arbelaez': {'name': 'Pablo Arbeláez',
                              'link'  : 'https://biomedicalcomputervision.uniandes.edu.co',
-                             'image' : 'images/Arbelaez.jpg'}};
+                             'image' : 'images/Arbelaez.jpg'},
+                'Leal-Taixe': {'name': 'Laura Leal-Taixe',
+                             'link'  : 'https://lealtaixe.github.io',
+                             'image' : 'images/LealTaixe.jpg'},
+                'Roth': {'name': 'Stefan Roth',
+                             'link'  : 'http://www.visinf.tu-darmstadt.de/team_members/sroth/sroth.en.jsp',
+                             'image' : 'images/Roth.jpg'},
+                'Milan': {'name': 'Anton Milan',
+                             'link'  : 'http://www.milanton.de/',
+                                 'image' : 'images/Milan.jpg'},
+                'Cremers': {'name': 'Daniel Cremers',
+                             'link'  : 'https://vision.in.tum.de/members/cremers',
+                             'image' : 'images/Cremers.jpg'},
+                'Reid': {'name': 'Ian Reid',
+                             'link'  : 'https://cs.adelaide.edu.au/~ianr/',
+                             'image' : 'images/Reid.jpg'},
+                'Schindler': {'name': 'Konrad Schindler',
+                             'link'  : 'http://www.prs.igp.ethz.ch/content/specialinterest/baug/institute-igp/photogrammetry-and-remote-sensing/en/group/people/person-detail.html?persid=143986',
+                             'image' : 'images/Schindler.jpg'}};
 
 
                            
