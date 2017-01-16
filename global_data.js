@@ -4,24 +4,17 @@ var challenges = ['davis','mot','vot','other'];
 
 // Properties of the challenges
 var chall_props = {'davis': {'title': 'Video Object Segmentation Challenge',
-                             'description': `In this project we present a new benchmark dataset and evaluation methodology for video object segmentation -
-                             DAVIS (Densely Annotated VIdeo Segmentation), which consists of fifty high quality, Full HD video sequences, accompanied by
-                             densely annotated, pixel-accurate and per-frame ground truth segmentation. We provide a comprehensive analysis of several
-                             state-of-the-art segmentation approaches using three complementary metrics.`,
+                             'description': 'In this project we present a new benchmark dataset and evaluation methodology for video object segmentation - DAVIS (Densely Annotated VIdeo Segmentation), which consists of fifty high quality, Full HD video sequences, accompanied by densely annotated, pixel-accurate and per-frame ground truth segmentation. We provide a comprehensive analysis of several state-of-the-art segmentation approaches using three complementary metrics.',
                              'link'  : 'http://davischallenge.org',
 		                     'image' : 'images/davis.png'},
+
                    'mot': {'title': 'MOTChallenge: Multiple Object Tracking Benchmark',
-                             'description': `MOTChallenge is a benchmark for Multiple Object Tracking that collects a large variety of sequences and 
-                             				provides a framework for the standardized evaluation of multiple object tracking methods. 
-											Currently, the benchmark is focused on multiple people tracking, since
-											pedestrians are by far the most studied object in the tracking community. 
-											This benchmark includes challening sequences with the highest pedestrian density of any benchmark, with carefully annotated
-											bounding boxes, multiple object classes beside pedestrians
-											and the level of visibility for every single object of interest.`,
+                             'description': 'MOTChallenge is a benchmark for Multiple Object Tracking that collects a large variety of sequences and provides a framework for the standardized evaluation of multiple object tracking methods. Currently, the benchmark is focused on multiple people tracking, since pedestrians are by far the most studied object in the tracking community.  This benchmark includes challening sequences with the highest pedestrian density of any benchmark, with carefully annotated bounding boxes, multiple object classes beside pedestrians and the level of visibility for every single object of interest.',
                              'link'  : 'motchallenge.net',
                              'image' : 'images/motchallenge.png'},
+
                   'vot': {'title': 'VOT Challenge',
-        'description': `The VOT challenges provide the visual tracking community with a precisely defined and repeatable way of comparing short-term trackers as well as a common platform for discussing the evaluation and advancements made in the field of visual tracking. The goal of the challenges is to build up a repository of considerable benchmarks and to organize workshops or similar events in order to push forward research in visual tracking.`,
+        'description': 'The VOT challenges provide the visual tracking community with a precisely defined and repeatable way of comparing short-term trackers as well as a common platform for discussing the evaluation and advancements made in the field of visual tracking. The goal of the challenges is to build up a repository of considerable benchmarks and to organize workshops or similar events in order to push forward research in visual tracking.',
         'link'  : 'http://votchallenge.net/',
         'image' : 'images/vot_logo_website.png'},
 
@@ -101,39 +94,39 @@ var team_props = {'Pont-Tuset': {'name'  : 'Jordi Pont-Tuset',
                                  'image' : 'images/Schindler.jpg'},
 'Kristan': {'name': 'Matej Kristan',
                'link'  : 'http://www.vicos.si/People/Matejk',
-               'image' : 'images/matej_kristan.png'}
+               'image' : 'images/matej_kristan.png'},
 
 'Leonardis': {'name': 'Aleš Leonardis,',
                'link'  : 'http://www.vicos.si/People/Ales_Leonardis',
-               'image' : 'images/ales_leonardis.png'}
+               'image' : 'images/ales_leonardis.png'},
 			   
 'Matas': {'name': 'Jiři Matas',
                'link'  : 'http://cmp.felk.cvut.cz/~matas/',
-               'image' : 'images/jiri_matas.png'}
+               'image' : 'images/jiri_matas.png'},
 
 'Felsberg': {'name': 'Michael Felsberg',
                'link'  : 'http://users.isy.liu.se/cvl/mfe/',
-               'image' : 'images/michael_felsberg.png'}
+               'image' : 'images/michael_felsberg.png'},
 
 'Pflugfelder': {'name': 'Roman Pflugfelder',
                'link'  : 'https://at.linkedin.com/in/romanpflugfelder',
-               'image' : 'images/roman_pflugfelder.png'}
+               'image' : 'images/roman_pflugfelder.png'},
 
 'Cehovin': {'name': 'Luka Čehovin',
                'link'  : 'http://www.vicos.si/People/Luka_Cehovin',
-               'image' : 'images/luka_cehovin.png'}
+               'image' : 'images/luka_cehovin.png'},
 
 'Fernandez Dominguez': {'name': 'Gustavo Fernandez Dominguez',
                'link'  : 'mailto:gustavo.fernandez.ait.ac.at',
-               'image' : 'images/gustavo_fernandez.png'}
+               'image' : 'images/gustavo_fernandez.png'},
  
 'Vojir': {'name': 'Tomas Vojiř',
                'link'  : 'http://cmp.felk.cvut.cz/~vojirtom/',
-               'image' : 'images/tomas_vojir.png'}
+               'image' : 'images/tomas_vojir.png'},
  
 'Haeger': {'name': 'Gustav Haeger',
                'link'  : 'http://www.liu.se/personal/isy/cvl/gusha40?l=en',
-               'image' : 'images/gustav_haeger.png'}
+               'image' : 'images/gustav_haeger.png'},
 
 'Lukezic': {'name': 'Alan Lukežič',
                'link'  : 'mailto:alan.lukezic@fri.uni-lj.si',
