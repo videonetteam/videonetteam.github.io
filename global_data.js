@@ -20,10 +20,11 @@ var chall_props = {'davis': {'title': 'Video Object Segmentation Challenge',
 											and the level of visibility for every single object of interest.`,
                              'link'  : 'motchallenge.net',
                              'image' : 'images/motchallenge.png'},
-                   'vot': {'title': 'Title VOT',
-                             'description': 'Bla bla VOT',
-                             'link'  : 'Link VOT',
-                             'image' : 'images/davis.png'},
+                  'vot': {'title': 'VOT Challenge',
+        'description': `The VOT challenges provide the visual tracking community with a precisely defined and repeatable way of comparing short-term trackers as well as a common platform for discussing the evaluation and advancements made in the field of visual tracking. The goal of the challenges is to build up a repository of considerable benchmarks and to organize workshops or similar events in order to push forward research in visual tracking.`,
+        'link'  : 'http://votchallenge.net/',
+        'image' : 'images/vot_logo_website.png'},
+
                          'other': {'title': 'Title OTHER',
                              'description': 'Bla bla VOT',
                              'link'  : 'Link VOT',
@@ -59,7 +60,7 @@ var pub_props = {'Perazzi2016': {'title': 'A Benchmark Dataset and Evaluation Me
 */
 
 // Team
-var team_members = ['Pont-Tuset', 'VanGool', 'Caelles', 'Sorkine', 'Perazzi', 'Arbelaez','Leal-Taixe','Roth','Milan','Cremers','Reid','Schindler'];
+var team_members = ['Pont-Tuset', 'VanGool', 'Caelles', 'Sorkine', 'Perazzi', 'Arbelaez','Leal-Taixe','Roth','Milan','Cremers','Reid','Schindler','Kristan','Leonardis','Matas','Felsberg','Pflugfelder','Cehovin','Fernandez Dominguez','Vojir','Haeger','Lukezic'];
 
 // Team data
 var team_props = {'Pont-Tuset': {'name'  : 'Jordi Pont-Tuset',
@@ -97,7 +98,46 @@ var team_props = {'Pont-Tuset': {'name'  : 'Jordi Pont-Tuset',
                                  'image' : 'images/Reid.jpg'},
                   'Schindler':  {'name'  : 'Konrad Schindler',
                                  'link'  : 'http://www.prs.igp.ethz.ch/content/specialinterest/baug/institute-igp/photogrammetry-and-remote-sensing/en/group/people/person-detail.html?persid=143986',
-                                 'image' : 'images/Schindler.jpg'}};
+                                 'image' : 'images/Schindler.jpg'},
+'Kristan': {'name': 'Matej Kristan',
+               'link'  : 'http://www.vicos.si/People/Matejk',
+               'image' : 'images/matej_kristan.png'}
+
+'Leonardis': {'name': 'Aleš Leonardis,',
+               'link'  : 'http://www.vicos.si/People/Ales_Leonardis',
+               'image' : 'images/ales_leonardis.png'}
+			   
+'Matas': {'name': 'Jiři Matas',
+               'link'  : 'http://cmp.felk.cvut.cz/~matas/',
+               'image' : 'images/jiri_matas.png'}
+
+'Felsberg': {'name': 'Michael Felsberg',
+               'link'  : 'http://users.isy.liu.se/cvl/mfe/',
+               'image' : 'images/michael_felsberg.png'}
+
+'Pflugfelder': {'name': 'Roman Pflugfelder',
+               'link'  : 'https://at.linkedin.com/in/romanpflugfelder',
+               'image' : 'images/roman_pflugfelder.png'}
+
+'Cehovin': {'name': 'Luka Čehovin',
+               'link'  : 'http://www.vicos.si/People/Luka_Cehovin',
+               'image' : 'images/luka_cehovin.png'}
+
+'Fernandez Dominguez': {'name': 'Gustavo Fernandez Dominguez',
+               'link'  : 'mailto:gustavo.fernandez.ait.ac.at',
+               'image' : 'images/gustavo_fernandez.png'}
+ 
+'Vojir': {'name': 'Tomas Vojiř',
+               'link'  : 'http://cmp.felk.cvut.cz/~vojirtom/',
+               'image' : 'images/tomas_vojir.png'}
+ 
+'Haeger': {'name': 'Gustav Haeger',
+               'link'  : 'http://www.liu.se/personal/isy/cvl/gusha40?l=en',
+               'image' : 'images/gustav_haeger.png'}
+
+'Lukezic': {'name': 'Alan Lukežič',
+               'link'  : 'mailto:alan.lukezic@fri.uni-lj.si',
+               'image' : 'images/alan_lukezic.png'}};
 
 
                            
