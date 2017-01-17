@@ -3,8 +3,8 @@
 var challenges = ['davis','mot','vot','other'];
 
 // Properties of the challenges
-var chall_props = {'davis': {'title': 'Video Object Segmentation Challenge',
-                             'description': 'In this project we present a new benchmark dataset and evaluation methodology for video object segmentation - DAVIS (Densely Annotated VIdeo Segmentation), which consists of fifty high quality, Full HD video sequences, accompanied by densely annotated, pixel-accurate and per-frame ground truth segmentation. We provide a comprehensive analysis of several state-of-the-art segmentation approaches using three complementary metrics.',
+var chall_props = {'davis': {'title': 'DAVIS Video Object Segmentation Challenge',
+                             'description': 'DAVIS (Densely Annotated VIdeo Segmentation) is a benchmark dataset and evaluation methodology for video object segmentation that consists of fifty high quality, Full HD video sequences, accompanied by densely annotated, pixel-accurate and per-frame ground truth segmentation. It provides a comprehensive analysis of several state-of-the-art segmentation approaches using three complementary metrics.',
                              'link'  : 'http://davischallenge.org',
 		                     'image' : 'images/davis.png'},
 
