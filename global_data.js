@@ -92,45 +92,43 @@ var team_props = {'Pont-Tuset': {'name'  : 'Jordi Pont-Tuset',
                   'Schindler':  {'name'  : 'Konrad Schindler',
                                  'link'  : 'http://www.prs.igp.ethz.ch/content/specialinterest/baug/institute-igp/photogrammetry-and-remote-sensing/en/group/people/person-detail.html?persid=143986',
                                  'image' : 'images/Schindler.jpg'},
-'Kristan': {'name': 'Matej Kristan',
-               'link'  : 'http://www.vicos.si/People/Matejk',
-               'image' : 'images/matej_kristan.png'},
+                  'Kristan':    {'name': 'Matej Kristan',
+                                 'link'  : 'http://www.vicos.si/People/Matejk',
+                                 'image' : 'images/matej_kristan.png'},
 
-'Leonardis': {'name': 'Aleš Leonardis,',
-               'link'  : 'http://www.vicos.si/People/Ales_Leonardis',
-               'image' : 'images/ales_leonardis.png'},
-			   
-'Matas': {'name': 'Jiři Matas',
-               'link'  : 'http://cmp.felk.cvut.cz/~matas/',
-               'image' : 'images/jiri_matas.png'},
+                  'Leonardis':  {'name': 'Aleš Leonardis',
+                                 'link'  : 'http://www.vicos.si/People/Ales_Leonardis',
+                                 'image' : 'images/ales_leonardis.png'},
+                  			   
+                  'Matas':      {'name': 'Jiři Matas',
+                                 'link'  : 'http://cmp.felk.cvut.cz/~matas/',
+                                 'image' : 'images/jiri_matas.png'},
 
-'Felsberg': {'name': 'Michael Felsberg',
-               'link'  : 'http://users.isy.liu.se/cvl/mfe/',
-               'image' : 'images/michael_felsberg.png'},
+                  'Felsberg':   {'name': 'Michael Felsberg',
+                                 'link'  : 'http://users.isy.liu.se/cvl/mfe/',
+                                 'image' : 'images/michael_felsberg.png'},
 
-'Pflugfelder': {'name': 'Roman Pflugfelder',
-               'link'  : 'https://at.linkedin.com/in/romanpflugfelder',
-               'image' : 'images/roman_pflugfelder.png'},
+                  'Pflugfelder':{'name': 'Roman Pflugfelder',
+                                 'link'  : 'https://at.linkedin.com/in/romanpflugfelder',
+                                 'image' : 'images/roman_pflugfelder.png'},
+                  'Cehovin':    {'name': 'Luka Čehovin',
+                                 'link'  : 'http://www.vicos.si/People/Luka_Cehovin',
+                                 'image' : 'images/luka_cehovin.png'},
+                  'Fernandez Dominguez': {'name': 'G. Fernandez Dominguez',
+                                 'link'  : 'mailto:gustavo.fernandez.ait.ac.at',
+                                 'image' : 'images/gustavo_fernandez.png'},
+                   
+                  'Vojir':      {'name': 'Tomas Vojiř',
+                                 'link'  : 'http://cmp.felk.cvut.cz/~vojirtom/',
+                                 'image' : 'images/tomas_vojir.png'},
+                   
+                  'Haeger':     {'name': 'Gustav Haeger',
+                                 'link'  : 'http://www.liu.se/personal/isy/cvl/gusha40?l=en',
+                                 'image' : 'images/gustav_haeger.png'},
 
-'Cehovin': {'name': 'Luka Čehovin',
-               'link'  : 'http://www.vicos.si/People/Luka_Cehovin',
-               'image' : 'images/luka_cehovin.png'},
-
-'Fernandez Dominguez': {'name': 'Gustavo Fernandez Dominguez',
-               'link'  : 'mailto:gustavo.fernandez.ait.ac.at',
-               'image' : 'images/gustavo_fernandez.png'},
- 
-'Vojir': {'name': 'Tomas Vojiř',
-               'link'  : 'http://cmp.felk.cvut.cz/~vojirtom/',
-               'image' : 'images/tomas_vojir.png'},
- 
-'Haeger': {'name': 'Gustav Haeger',
-               'link'  : 'http://www.liu.se/personal/isy/cvl/gusha40?l=en',
-               'image' : 'images/gustav_haeger.png'},
-
-'Lukezic': {'name': 'Alan Lukežič',
-               'link'  : 'mailto:alan.lukezic@fri.uni-lj.si',
-               'image' : 'images/alan_lukezic.png'}};
+                  'Lukezic':    {'name': 'Alan Lukežič',
+                                 'link'  : 'mailto:alan.lukezic@fri.uni-lj.si',
+                                 'image' : 'images/alan_lukezic.png'}};
 
 
                            
