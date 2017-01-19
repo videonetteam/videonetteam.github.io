@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+e<!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
@@ -139,14 +139,15 @@
 				<div class="row wrap-box"><!--Start Box-->
 					<div class="header">
 						<hr class="line-2">
-						<h2 style="margin-top:50px;">VideoNet</h2>
-						<span style="line-height: 100%">A benchmark initiative for all things video</span>
+						<!-- <h2 style="margin-top:50px;">VideoNet</h2> -->
+						<img  src="images/videonet_title.png" style="width: 70%" alt="VideoNet"/><br>
+						<span style="line-height: 100%; color: #3D3938">A benchmark initiative for all things video</span>
 					</div>	
 					<div class="row">
 						<div class="col-1-1 t-center" style="margin-top:30px;margin-bottom:30px;font-size: 18px">
 							VideoNet is a new initiative to bring together the community of researchers 
 							that have put effort into creating benchmarks for video tasks. 
-							Our goal is to exchange ideas on how to improve annotations, evaluation measures, and eventually
+							Our goal is to exchange ideas on how to improve annotations, evaluation measures, and
 							learn from each other's experiences.<br>
 							Cameras are around us everywhere, generating millions of frames of video footage every day. Why limit
 							yourself to a single image when you can have a video? Discover the challenges of video processing here.
@@ -154,6 +155,7 @@
 					    </div>
 					</div>
 					<div class="row" id="main_content">
+
 					</div>
 				</div>
 			</div>
@@ -182,6 +184,11 @@
 
 			for (ii in rand_idx)
 			{
+				if (ii==(rand_idx.length-1) & (ii%2==0))
+				{
+					document.getElementById("main_content").innerHTML = document.getElementById("main_content").innerHTML +  `<div class="col-1-4"><div class="item-container" style="margin:2px;"></div></div>`;
+				}
+
 				var props = chall_props[challenges[rand_idx[ii]]];
 				document.getElementById("main_content").innerHTML = document.getElementById("main_content").innerHTML +  `<div class="col-1-2">
 							<div class="item-container" style="margin:2px;">
@@ -197,10 +204,11 @@
 										</div>
 									</a>
 								</div>
-								<img  src="`+props.image+`" alt=""/>
+								<img  src="`+chall_im_root+props.image+`" alt=""/>
 							</div>
 						</div>`;
 			}
+
 		</script>
 	</div>
 </section>
@@ -265,50 +273,50 @@
 
 
 <script type='text/javascript'>
-	// http://uinames.com/api/?amount=40&region=england
-	var random_names = [{"name":"Zak","surname":"Jackson","gender":"men","region":"England"},{"name":"Oliver","surname":"Shaw","gender":"men","region":"England"},{"name":"Lily","surname":"Murray","gender":"women","region":"England"},{"name":"Mollie","surname":"Edwards","gender":"women","region":"England"},{"name":"Logan","surname":"Ward","gender":"men","region":"England"},{"name":"Mia","surname":"Lee","gender":"women","region":"England"},{"name":"Caitlin","surname":"Turner","gender":"women","region":"England"},{"name":"Riley","surname":"Bailey","gender":"men","region":"England"},{"name":"Natasha","surname":"Young","gender":"women","region":"England"},{"name":"Zachary","surname":"White","gender":"men","region":"England"},{"name":"Harvey","surname":"Stewart","gender":"men","region":"England"},{"name":"Elizabeth","surname":"Kelly","gender":"women","region":"England"},{"name":"Max","surname":"Rogers","gender":"men","region":"England"},{"name":"Toby","surname":"Allen","gender":"men","region":"England"},{"name":"Liam","surname":"Rogers","gender":"men","region":"England"},{"name":"Maddison","surname":"Gray","gender":"women","region":"England"},{"name":"Bethany","surname":"Allen","gender":"women","region":"England"},{"name":"Thomas","surname":"Hall","gender":"men","region":"England"},{"name":"Scarlett","surname":"James","gender":"women","region":"England"},{"name":"Shannon","surname":"Davies","gender":"women","region":"England"},{"name":"Laura","surname":"Watson","gender":"women","region":"England"},{"name":"Cameron","surname":"Patel","gender":"men","region":"England"},{"name":"Grace","surname":"Allen","gender":"women","region":"England"},{"name":"Scarlett","surname":"Adams","gender":"women","region":"England"},{"name":"Hollie","surname":"Cook","gender":"women","region":"England"},{"name":"Joe","surname":"Green","gender":"men","region":"England"},{"name":"Lily","surname":"Fox","gender":"women","region":"England"},{"name":"Jack","surname":"Powell","gender":"men","region":"England"},{"name":"Amelia","surname":"James","gender":"women","region":"England"},{"name":"Mohammed","surname":"Williams","gender":"men","region":"England"},{"name":"Andrew","surname":"Murphy","gender":"men","region":"England"},{"name":"Charles","surname":"Griffiths","gender":"men","region":"England"},{"name":"Oscar","surname":"Marshall","gender":"men","region":"England"},{"name":"Kieran","surname":"Jones","gender":"men","region":"England"},{"name":"Oscar","surname":"Anderson","gender":"men","region":"England"},{"name":"Alicia","surname":"Powell","gender":"women","region":"England"},{"name":"Naomi","surname":"Watson","gender":"women","region":"England"},{"name":"Isabelle","surname":"Russell","gender":"women","region":"England"},{"name":"Amber","surname":"Powell","gender":"women","region":"England"},{"name":"Samuel","surname":"Robinson","gender":"men","region":"England"}]
+	// // http://uinames.com/api/?amount=40&region=england
+	// var random_names = [{"name":"Zak","surname":"Jackson","gender":"men","region":"England"},{"name":"Oliver","surname":"Shaw","gender":"men","region":"England"},{"name":"Lily","surname":"Murray","gender":"women","region":"England"},{"name":"Mollie","surname":"Edwards","gender":"women","region":"England"},{"name":"Logan","surname":"Ward","gender":"men","region":"England"},{"name":"Mia","surname":"Lee","gender":"women","region":"England"},{"name":"Caitlin","surname":"Turner","gender":"women","region":"England"},{"name":"Riley","surname":"Bailey","gender":"men","region":"England"},{"name":"Natasha","surname":"Young","gender":"women","region":"England"},{"name":"Zachary","surname":"White","gender":"men","region":"England"},{"name":"Harvey","surname":"Stewart","gender":"men","region":"England"},{"name":"Elizabeth","surname":"Kelly","gender":"women","region":"England"},{"name":"Max","surname":"Rogers","gender":"men","region":"England"},{"name":"Toby","surname":"Allen","gender":"men","region":"England"},{"name":"Liam","surname":"Rogers","gender":"men","region":"England"},{"name":"Maddison","surname":"Gray","gender":"women","region":"England"},{"name":"Bethany","surname":"Allen","gender":"women","region":"England"},{"name":"Thomas","surname":"Hall","gender":"men","region":"England"},{"name":"Scarlett","surname":"James","gender":"women","region":"England"},{"name":"Shannon","surname":"Davies","gender":"women","region":"England"},{"name":"Laura","surname":"Watson","gender":"women","region":"England"},{"name":"Cameron","surname":"Patel","gender":"men","region":"England"},{"name":"Grace","surname":"Allen","gender":"women","region":"England"},{"name":"Scarlett","surname":"Adams","gender":"women","region":"England"},{"name":"Hollie","surname":"Cook","gender":"women","region":"England"},{"name":"Joe","surname":"Green","gender":"men","region":"England"},{"name":"Lily","surname":"Fox","gender":"women","region":"England"},{"name":"Jack","surname":"Powell","gender":"men","region":"England"},{"name":"Amelia","surname":"James","gender":"women","region":"England"},{"name":"Mohammed","surname":"Williams","gender":"men","region":"England"},{"name":"Andrew","surname":"Murphy","gender":"men","region":"England"},{"name":"Charles","surname":"Griffiths","gender":"men","region":"England"},{"name":"Oscar","surname":"Marshall","gender":"men","region":"England"},{"name":"Kieran","surname":"Jones","gender":"men","region":"England"},{"name":"Oscar","surname":"Anderson","gender":"men","region":"England"},{"name":"Alicia","surname":"Powell","gender":"women","region":"England"},{"name":"Naomi","surname":"Watson","gender":"women","region":"England"},{"name":"Isabelle","surname":"Russell","gender":"women","region":"England"},{"name":"Amber","surname":"Powell","gender":"women","region":"England"},{"name":"Samuel","surname":"Robinson","gender":"men","region":"England"}]
 
 
-	var rand_idx2=new Array(random_names.length);
-	for (ii in random_names)
-		rand_idx2[ii]=ii;
-	shuffleArray(rand_idx2);
-	for (ii in rand_idx2)
-	{
-		var props = random_names[rand_idx2[ii]];
-		var name = props.name+" "+props.surname;
-		if (name.length>15)
-			name = props.name.substr(0,1)+". "+props.surname;
-
-		console.log(rand_idx2[ii].toString())
-		document.getElementById("team_list").innerHTML = document.getElementById("team_list").innerHTML +  `<div class="resp-col t-center">
-							<div class="wrap-col">
-								<div class="round">
-									<a href="" target="_blank"><img src="https://randomuser.me/api/portraits/`+props.gender+`/`+rand_idx2[ii].toString()+`.jpg" class="roundimg"/></a>
-								</div>
-								<a href="" target="_blank"><div style="margin-top: 10px;">`+name +`</div></a>
-							</div>
-						</div>`;
-	}
-
-
-	// ######## Real thing #######
-	// var rand_idx2=new Array(team_members.length);
-	// for (ii in team_members)
+	// var rand_idx2=new Array(random_names.length);
+	// for (ii in random_names)
 	// 	rand_idx2[ii]=ii;
 	// shuffleArray(rand_idx2);
 	// for (ii in rand_idx2)
 	// {
-	// 	var props = team_props[team_members[rand_idx2[ii]]];
+	// 	var props = random_names[rand_idx2[ii]];
+	// 	var name = props.name+" "+props.surname;
+	// 	if (name.length>15)
+	// 		name = props.name.substr(0,1)+". "+props.surname;
+
+	// 	console.log(rand_idx2[ii].toString())
 	// 	document.getElementById("team_list").innerHTML = document.getElementById("team_list").innerHTML +  `<div class="resp-col t-center">
 	// 						<div class="wrap-col">
 	// 							<div class="round">
-	// 								<a href="`+props.link+`" target="_blank"><img src="`+props.image+`" class="roundimg"/></a>
+	// 								<a href="" target="_blank"><img src="https://randomuser.me/api/portraits/`+props.gender+`/`+rand_idx2[ii].toString()+`.jpg" class="roundimg"/></a>
 	// 							</div>
-	// 							<a href="`+props.link+`" target="_blank"><div style="margin-top: 10px;font-size: 78%">`+props.name+`</div></a>
+	// 							<a href="" target="_blank"><div style="margin-top: 10px;">`+name +`</div></a>
 	// 						</div>
 	// 					</div>`;
 	// }
+
+
+	// ######## Real thing #######
+	var rand_idx2=new Array(team_members.length);
+	for (ii in team_members)
+		rand_idx2[ii]=ii;
+	shuffleArray(rand_idx2);
+	for (ii in rand_idx2)
+	{
+		var props = team_props[team_members[rand_idx2[ii]]];
+		document.getElementById("team_list").innerHTML = document.getElementById("team_list").innerHTML +  `<div class="resp-col t-center">
+							<div class="wrap-col">
+								<div class="round">
+									<a href="`+props.link+`" target="_blank"><img src="`+people_im_root+props.image+`" class="roundimg"/></a>
+								</div>
+								<a href="`+props.link+`" target="_blank"><div style="margin-top: 10px;font-size: 78%">`+props.name+`</div></a>
+							</div>
+						</div>`;
+	}
 </script>
 
 
