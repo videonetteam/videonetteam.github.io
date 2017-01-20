@@ -15,7 +15,7 @@ var chall_props = {'davis': {'title': 'DAVIS Video Object Segmentation Challenge
 
                    'mot': {'title': 'MOTChallenge: Multiple Object Tracking Benchmark',
                              'description': 'MOTChallenge is a benchmark for Multiple Object Tracking that collects a large variety of sequences and provides a framework for the standardized evaluation of multiple object tracking methods. Currently, the benchmark is focused on multiple people tracking, since pedestrians are by far the most studied object in the tracking community.  The benchmark includes 2D, 3D and multi-camera challenges.',
-                             'link'  : 'motchallenge.net',
+                             'link'  : 'http://motchallenge.net',
                              'image' : 'motchallenge.png'},
 
                   'vot': {'title': 'VOT Visual Object Tracking Challenge',
