@@ -23,19 +23,21 @@
 	================================================== -->
   	<link rel="stylesheet" href="css/zerogrid.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/menu.css">
+
 	<!-- <link rel="stylesheet" href="css/lightbox.css"> -->
 	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+
 	<!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
 
 	
 	<link rel="shortcut icon" href="images/videonet_icon.png">
-	<link rel="stylesheet" href="css/zerogrid.css">
-	<link rel="stylesheet" href="css/menu.css">
 
 	<!-- Add smooth transition -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script>
 	$(document).ready(function(){
 	  // Add smooth scrolling to all links
@@ -65,33 +67,7 @@
 
 	
 	<style type="text/css">
-    /*********************************
-    The list of publication items
-    *********************************/
-    /* The list of items */
-    .biblist { }
-
-    /* The item */
-    .biblist li { }
-
-    /* You can define custom styles for plstyle field here. */
-
-
-    /*************************************
-     The box that contain BibTeX code
-     *************************************/
-    div.noshow { display: none; }
-    div.bibtex {
-        margin-right: 0%;
-        margin-top: 1.2em;
-        margin-bottom: 1.3em;
-        border: 1px solid silver;
-        padding: 0.3em 0.5em;
-        background: #ffffee;
-    }
-    div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; }
-
-
+   
     .content-subhead{color: black}
 
     .round{
@@ -112,19 +88,7 @@
 	}
 </style>
 
-<script type="text/javascript">
-  // Toggle Display of BibTeX
- function toggleBibtex(articleid) {
-     var bib = document.getElementById('bib_'+articleid);
-     if (bib) {
-         if(bib.className.indexOf('bibtex') != -1) {
-             bib.className.indexOf('noshow') == -1?bib.className = 'bibtex noshow':bib.className = 'bibtex';
-         }
-     } else {
-         return;
-	 }
-}
-</script>
+
 </head>
 
 <body>
