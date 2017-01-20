@@ -313,7 +313,8 @@ e<!DOCTYPE html>
 								<div class="round">
 									<a href="`+props.link+`" target="_blank"><img src="`+people_im_root+props.image+`" class="roundimg"/></a>
 								</div>
-								<a href="`+props.link+`" target="_blank"><div style="margin-top: 10px;font-size: 78%">`+props.name+`</div></a>
+								<a href="`+props.link+`" target="_blank"><div style="margin-top: 5px;font-size: 88%; line-height: 1.2">`+
+								props.name.substr(0, props.name.indexOf(" "))+"<br>"+props.name.substr(props.name.indexOf(" ")+1,props.name.length-1)+`</div></a>
 							</div>
 						</div>`;
 	}
