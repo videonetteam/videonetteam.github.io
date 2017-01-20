@@ -14,11 +14,11 @@ var chall_props = {'davis': {'title': 'DAVIS Video Object Segmentation Challenge
 		                     'image' : 'davis.png'},
 
                    'mot': {'title': 'MOTChallenge: Multiple Object Tracking Benchmark',
-                             'description': 'MOTChallenge is a benchmark for Multiple Object Tracking that collects a large variety of sequences and provides a framework for the standardized evaluation of multiple object tracking methods. Currently, the benchmark is focused on multiple people tracking, since pedestrians are by far the most studied object in the tracking community.  This benchmark includes challening sequences with the highest pedestrian density of any benchmark, with carefully annotated bounding boxes, multiple object classes beside pedestrians and the level of visibility for every single object of interest.',
+                             'description': 'MOTChallenge is a benchmark for Multiple Object Tracking that collects a large variety of sequences and provides a framework for the standardized evaluation of multiple object tracking methods. Currently, the benchmark is focused on multiple people tracking, since pedestrians are by far the most studied object in the tracking community.  The benchmark includes 2D, 3D and multi-camera challenges.',
                              'link'  : 'motchallenge.net',
                              'image' : 'motchallenge.png'},
 
-                  'vot': {'title': 'VOT Challenge',
+                  'vot': {'title': 'VOT Visual Object Tracking Challenge',
         'description': 'The VOT challenges provide the visual tracking community with a precisely defined and repeatable way of comparing short-term trackers as well as a common platform for discussing the evaluation and advancements made in the field of visual tracking. The goal of the challenges is to build up a repository of considerable benchmarks and to organize workshops or similar events in order to push forward research in visual tracking.',
         'link'  : 'http://votchallenge.net/',
         'image' : 'vot_logo_website.png'},
