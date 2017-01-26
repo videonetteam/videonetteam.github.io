@@ -1,6 +1,6 @@
 
 // IDs of the challenges and order in which they are shown
-var challenges = ['davis','mot','vot'];
+var challenges = ['davis','mot','vot','activity'];
 
 
 // Roots of the images
@@ -22,6 +22,12 @@ var chall_props = {'davis': {'title': 'DAVIS Video Object Segmentation Challenge
         'description': 'The VOT challenges provide the visual tracking community with a precisely defined and repeatable way of comparing short-term trackers as well as a common platform for discussing the evaluation and advancements made in the field of visual tracking. The goal of the challenges is to build up a repository of considerable benchmarks and to organize workshops or similar events in order to push forward research in visual tracking.',
         'link'  : 'http://votchallenge.net/',
         'image' : 'vot_logo_website.png'},
+
+        'activity': {'title': 'Activity Forecasting Challenge',
+        'description': 'The Activity Forecasting challenge is a new public benchmark where researchers can evaluate forecasting models on a unified dataset with similar metrics. The first tracks will focus on predicting human motion trajectory in crowded scenes.',
+        'link'  : 'http://cvgl.stanford.edu/projects/uav_data/',
+        'image' : 'activityforecasting.png'},
+
 
                          'other': {'title': 'Title OTHER',
                              'description': 'Bla bla VOT',
@@ -58,7 +64,7 @@ var pub_props = {'Perazzi2016': {'title': 'A Benchmark Dataset and Evaluation Me
 */
 
 // Team
-var team_members = ['Pont-Tuset', 'VanGool', 'Caelles', 'Sorkine', 'Perazzi', 'Arbelaez','Leal-Taixe','Roth','Milan','Cremers','Reid','Schindler','Kristan','Leonardis','Matas','Felsberg','Pflugfelder','Cehovin','Fernandez Dominguez','Vojir','Haeger','Lukezic'];
+var team_members = ['Pont-Tuset', 'VanGool', 'Caelles', 'Sorkine', 'Perazzi', 'Arbelaez','Leal-Taixe','Roth','Milan','Cremers','Reid','Schindler','Kristan','Leonardis','Matas','Felsberg','Pflugfelder','Cehovin','Fernandez Dominguez','Vojir','Haeger','Lukezic','Sadeghian','Alahi','Savarese'];
 
 // Team data
 var team_props = {'Pont-Tuset': {'name'  : 'Jordi Pont-Tuset',
@@ -133,7 +139,19 @@ var team_props = {'Pont-Tuset': {'name'  : 'Jordi Pont-Tuset',
 
                   'Lukezic':    {'name': 'Alan Lukežič',
                                  'link'  : 'mailto:alan.lukezic@fri.uni-lj.si',
-                                 'image' : 'alan_lukezic.png'}};
+                                 'image' : 'alan_lukezic.png'},
+
+                  'Sadeghian': {'name': 'Amir Abbas Sadeghian',
+                                 'link'  : 'https://www.linkedin.com/in/amirabs',
+                                 'image' : 'Sadeghian.png'},
+                   
+                  'Alahi':      {'name': 'Alexandre Alahi',
+                                 'link'  : 'http://web.stanford.edu/~alahi/',
+                                 'image' : 'Alahi.png'},
+                   
+                  'Savarese':     {'name': 'Silvio Savarese',
+                                 'link'  : 'http://cvgl.stanford.edu/silvio/',
+                                 'image' : 'Savarese.png'}};
 
 
                            
