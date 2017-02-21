@@ -161,15 +161,15 @@ var team_props = {'Pont-Tuset': {'name'  : 'Jordi Pont-Tuset',
 
 		'Galasso': {'name': 'Fabio Galasso',
 			       'link'  : 'http://fabiogalasso.org/',
-			       'image' : 'images/Galasso_128.jpg'}
+			       'image' : 'images/Galasso_128.jpg'},
 
 		'Nagaraja': {'name': 'Naveen Shankar Nagaraja',
 			       'link'  : 'http://lmb.informatik.uni-freiburg.de/people/nagaraja/',
-			       'image' : 'images/Nagaraja_128.jpg'}
+			       'image' : 'images/Nagaraja_128.jpg'},
 
 		'Brox': {'name': 'Thomas Brox',
 			 'link': 'http://lmb.informatik.uni-freiburg.de/people/brox/',
-			 'image': 'images/Brox_128.jpg'}
+			 'image': 'images/Brox_128.jpg'},
 
 		'Schiele': {'name': 'Bernt Schiele',
 			 'link': 'https://www.mpi-inf.mpg.de/~schiele/',
