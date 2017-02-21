@@ -31,7 +31,7 @@ var chall_props = {'davis': {'title': 'DAVIS Video Object Segmentation Challenge
 'vsb100': {'title': 'VSB100: Video Segmentation Benchmark with Multiple Human Annotations',
         'description': 'VSB100 is a benchmark for video object segmentation, where all objects in the frame are annotated, independently of their classes. VSB100 provides multiple human annotations for the video frames, because people annotate videos in different ways, all plausible. The two benchmark metrics, boundary and volume precision recall (BPR and VPR), measure the boundary alignment and the temporal consistency respectively. VSB100 further offer subtasks of motion segmentation, non-rigid motion segmentation and camera motion.',
         'link'  : 'https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/image-and-video-segmentation/vsb100-a-unified-video-segmentation-benchmark/',
-        'image' : 'images/VSB100.jpg'}
+        'image' : 'images/VSB100.jpg'},
 
 
 
