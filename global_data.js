@@ -28,6 +28,12 @@ var chall_props = {'davis': {'title': 'DAVIS Video Object Segmentation Challenge
         'link'  : 'http://cvgl.stanford.edu/projects/uav_data/',
         'image' : 'activityforecasting.png'},
 
+'VSB100': {'title': 'VSB100: Video Segmentation Benchmark with Multiple Human Annotations',
+        'description': 'VSB100 is a benchmark for video object segmentation, where all objects in the frame are annotated, independently of their classes. VSB100 provides multiple human annotations for the video frames, because people annotate videos in different ways, all plausible. The two benchmark metrics, boundary and volume precision recall (BPR and VPR), measure the boundary alignment and the temporal consistency respectively. VSB100 further offer subtasks of motion segmentation, non-rigid motion segmentation and camera motion.',
+        'link'  : 'https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/image-and-video-segmentation/vsb100-a-unified-video-segmentation-benchmark/',
+        'image' : 'images/VSB100.jpg'}
+
+
 
                          'other': {'title': 'Title OTHER',
                              'description': 'Bla bla VOT',
@@ -64,7 +70,7 @@ var pub_props = {'Perazzi2016': {'title': 'A Benchmark Dataset and Evaluation Me
 */
 
 // Team
-var team_members = ['Pont-Tuset', 'VanGool', 'Caelles', 'Sorkine', 'Perazzi', 'Arbelaez','Leal-Taixe','Roth','Milan','Cremers','Reid','Schindler','Kristan','Leonardis','Matas','Felsberg','Pflugfelder','Cehovin','Fernandez Dominguez','Vojir','Haeger','Lukezic','Sadeghian','Alahi','Savarese'];
+var team_members = ['Pont-Tuset', 'VanGool', 'Caelles', 'Sorkine', 'Perazzi', 'Arbelaez','Leal-Taixe','Roth','Milan','Cremers','Reid','Schindler','Kristan','Leonardis','Matas','Felsberg','Pflugfelder','Cehovin','Fernandez Dominguez','Vojir','Haeger','Lukezic','Sadeghian','Alahi','Savarese','Galasso','Nagaraja','Brox','Schiele'];
 
 // Team data
 var team_props = {'Pont-Tuset': {'name'  : 'Jordi Pont-Tuset',
@@ -151,7 +157,24 @@ var team_props = {'Pont-Tuset': {'name'  : 'Jordi Pont-Tuset',
                    
                   'Savarese':     {'name': 'Silvio Savarese',
                                  'link'  : 'http://cvgl.stanford.edu/silvio/',
-                                 'image' : 'Savarese.png'}};
+                                 'image' : 'Savarese.png'},
+
+		'Galasso': {'name': 'Fabio Galasso',
+			       'link'  : 'http://fabiogalasso.org/',
+			       'image' : 'images/Galasso_128.jpg'}
+
+		'Nagaraja': {'name': 'Naveen Shankar Nagaraja',
+			       'link'  : 'http://lmb.informatik.uni-freiburg.de/people/nagaraja/',
+			       'image' : 'images/Nagaraja_128.jpg'}
+
+		'Brox': {'name': 'Thomas Brox',
+			 'link': 'http://lmb.informatik.uni-freiburg.de/people/brox/',
+			 'image': 'images/Brox_128.jpg'}
+
+		'Schiele': {'name': 'Bernt Schiele',
+			 'link': 'https://www.mpi-inf.mpg.de/~schiele/',
+			 'image': 'images/Schiele_128.jpg'}
+		};
 
 
                            
