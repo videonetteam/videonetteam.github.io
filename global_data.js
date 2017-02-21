@@ -11,34 +11,28 @@ var people_im_root = 'images/people/';
 var chall_props = {'davis': {'title': 'DAVIS Video Object Segmentation Challenge',
                              'description': 'DAVIS (Densely Annotated VIdeo Segmentation) is a benchmark dataset and evaluation methodology for video object segmentation that consists of fifty high quality, Full HD video sequences, accompanied by densely annotated, pixel-accurate and per-frame ground truth segmentation. It provides a comprehensive analysis of several state-of-the-art segmentation approaches using three complementary metrics.',
                              'link'  : 'http://davischallenge.org',
-		                     'image' : 'davis.png'},
+		                         'image' : 'davis.png'},
 
                    'mot': {'title': 'MOTChallenge: Multiple Object Tracking Benchmark',
-                             'description': 'MOTChallenge is a benchmark for Multiple Object Tracking that collects a large variety of sequences and provides a framework for the standardized evaluation of multiple object tracking methods. Currently, the benchmark is focused on multiple people tracking, since pedestrians are by far the most studied object in the tracking community.  The benchmark includes 2D, 3D and multi-camera challenges.',
-                             'link'  : 'http://motchallenge.net',
-                             'image' : 'motchallenge.png'},
+                            'description': 'MOTChallenge is a benchmark for Multiple Object Tracking that collects a large variety of sequences and provides a framework for the standardized evaluation of multiple object tracking methods. Currently, the benchmark is focused on multiple people tracking, since pedestrians are by far the most studied object in the tracking community.  The benchmark includes 2D, 3D and multi-camera challenges.',
+                            'link'  : 'http://motchallenge.net',
+                            'image' : 'motchallenge.png'},
 
                   'vot': {'title': 'VOT Visual Object Tracking Challenge',
-        'description': 'The VOT challenges provide the visual tracking community with a precisely defined and repeatable way of comparing short-term trackers as well as a common platform for discussing the evaluation and advancements made in the field of visual tracking. The goal of the challenges is to build up a repository of considerable benchmarks and to organize workshops or similar events in order to push forward research in visual tracking.',
-        'link'  : 'http://votchallenge.net/',
-        'image' : 'vot_logo_website.png'},
+                          'description': 'The VOT challenges provide the visual tracking community with a precisely defined and repeatable way of comparing short-term trackers as well as a common platform for discussing the evaluation and advancements made in the field of visual tracking. The goal of the challenges is to build up a repository of considerable benchmarks and to organize workshops or similar events in order to push forward research in visual tracking.',
+                          'link'  : 'http://votchallenge.net/',
+                          'image' : 'vot_logo_website.png'},
 
-        'activity': {'title': 'Activity Forecasting Challenge',
-        'description': 'The Activity Forecasting challenge is a new public benchmark where researchers can evaluate forecasting models on a unified dataset with similar metrics. The first tracks will focus on predicting human motion trajectory in crowded scenes.',
-        'link'  : 'http://cvgl.stanford.edu/projects/uav_data/',
-        'image' : 'activityforecasting.png'},
+                  'activity': {'title': 'Activity Forecasting Challenge',
+                               'description': 'The Activity Forecasting challenge is a new public benchmark where researchers can evaluate forecasting models on a unified dataset with similar metrics. The first tracks will focus on predicting human motion trajectory in crowded scenes.',
+                               'link'  : 'http://cvgl.stanford.edu/projects/uav_data/',
+                               'image' : 'activityforecasting.png'},
 
-'vsb100': {'title': 'VSB100: Video Segmentation Benchmark with Multiple Human Annotations',
-        'description': 'VSB100 is a benchmark for video segmentation, where all objects are annotated independently of their classes. Multiple human annotations are provided, because people annotate videos in different plausible ways. Two metrics, boundary and volume precision recall, measure the boundary alignment and temporal consistency. VSB100 offers subtasks of motion segmentation and camera motion.',
-        'link'  : 'https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/image-and-video-segmentation/vsb100-a-unified-video-segmentation-benchmark/',
-        'image' : 'VSB100.png'},
-
-
-
-                         'other': {'title': 'Title OTHER',
-                             'description': 'Bla bla VOT',
-                             'link'  : 'Link VOT',
-                             'image' : 'davis.png'}};
+                  'vsb100': {'title': 'VSB100: Video Segmentation Benchmark with Multiple Human Annotations',
+                             'description': 'VSB100 is a benchmark for video segmentation, where all objects are annotated independently of their classes. Multiple human annotations are provided, because people annotate videos in different plausible ways. Two metrics, boundary and volume precision recall, measure the boundary alignment and temporal consistency. VSB100 offers subtasks of motion segmentation and camera motion.',
+                             'link'  : 'https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/image-and-video-segmentation/vsb100-a-unified-video-segmentation-benchmark/',
+                             'image' : 'VSB100.png'}
+                  };
 
 // Publication IDs appearing on the left or the right column
 /*
@@ -148,33 +142,33 @@ var team_props = {'Pont-Tuset': {'name'  : 'Jordi Pont-Tuset',
                                  'image' : 'alan_lukezic.png'},
 
                   'Sadeghian': {'name': 'Amir Abbas Sadeghian',
-                                 'link'  : 'https://www.linkedin.com/in/amirabs',
-                                 'image' : 'Sadeghian.png'},
+                                'link'  : 'https://www.linkedin.com/in/amirabs',
+                                'image' : 'Sadeghian.png'},
                    
                   'Alahi':      {'name': 'Alexandre Alahi',
                                  'link'  : 'http://web.stanford.edu/~alahi/',
                                  'image' : 'Alahi.png'},
                    
-                  'Savarese':     {'name': 'Silvio Savarese',
+                  'Savarese':   {'name': 'Silvio Savarese',
                                  'link'  : 'http://cvgl.stanford.edu/silvio/',
                                  'image' : 'Savarese.png'},
 
-		'Galasso': {'name': 'Fabio Galasso',
-			       'link'  : 'http://fabiogalasso.org/',
-			       'image' : 'Galasso_128.jpg'},
+              		'Galasso': {'name': 'Fabio Galasso',
+              			          'link'  : 'http://fabiogalasso.org/',
+              			          'image' : 'Galasso_128.jpg'},
 
-		'Nagaraja': {'name': 'Naveen Shankar Nagaraja',
-			       'link'  : 'http://lmb.informatik.uni-freiburg.de/people/nagaraja/',
-			       'image' : 'Nagaraja_128.jpg'},
+              		'Nagaraja': {'name': 'Naveen Shankar Nagaraja',
+			                         'link'  : 'http://lmb.informatik.uni-freiburg.de/people/nagaraja/',
+              			           'image' : 'Nagaraja_128.jpg'},
 
-		'Brox': {'name': 'Thomas Brox',
-			 'link': 'http://lmb.informatik.uni-freiburg.de/people/brox/',
-			 'image': 'Brox_128.jpg'},
+              		'Brox': {'name': 'Thomas Brox',
+              			       'link': 'http://lmb.informatik.uni-freiburg.de/people/brox/',
+              			       'image': 'Brox_128.jpg'},
 
-		'Schiele': {'name': 'Bernt Schiele',
-			 'link': 'https://www.mpi-inf.mpg.de/~schiele/',
-			 'image': 'Schiele_128.jpg'}
-		};
+              		'Schiele': {'name': 'Bernt Schiele',
+              			          'link': 'https://www.mpi-inf.mpg.de/~schiele/',
+              			          'image': 'Schiele_128.jpg'}
+              		};
 
 
                            
